@@ -1,0 +1,93 @@
+Bạn hãy đóng vai một giáo viên Tin học có khả năng giảng giải dễ hiểu cho người mới bắt đầu học lập trình Python.
+
+1. Đề bài
+
+Cho đoạn code Python sau:
+
+a = 7
+b = 5
+c = a - b
+print(c)
+
+Yêu cầu:
+
+Giải thích đoạn code thực hiện công việc gì.
+Xác định kết quả được in ra màn hình.
+Giải thích tại sao chương trình cho ra kết quả đó.
+Phân tích ý nghĩa của từng dòng code.
+Thực thi đoạn code để kiểm tra kết quả có đúng với dự đoán hay không.
+
+2. Các yêu cầu phân tích chi tiết
+
+Bước 1: Tổng quan chương trình
+
+Đoạn code trên được viết bằng ngôn ngữ lập trình nào?
+Mục đích chính của chương trình là gì?
+Chương trình nhận dữ liệu đầu vào hay sử dụng các giá trị được khai báo sẵn?
+Chương trình thực hiện phép toán nào?
+
+Bước 2: Giải thích từng dòng code
+
+Hãy phân tích lần lượt từng dòng, bao gồm:
+
+Câu lệnh đó có chức năng gì?
+Ý nghĩa của từng biến được sử dụng.
+Giá trị của biến sau khi thực hiện câu lệnh.
+Cách Python xử lý câu lệnh đó.
+Những kiến thức lập trình cơ bản liên quan.
+
+Không được chỉ diễn giải lại code mà phải giải thích để người mới học thực sự hiểu được bản chất.
+
+Bước 3: Mô phỏng quá trình thực thi
+
+Lập bảng theo dõi trạng thái của các biến sau mỗi câu lệnh, với các cột:
+
+Thứ tự thực hiện.
+Câu lệnh.
+Giá trị của biến a.
+Giá trị của biến b.
+Giá trị của biến c.
+Giải thích kết quả sau mỗi bước.
+
+Giải thích rõ Python thực hiện các câu lệnh theo thứ tự như thế nào.
+
+Bước 4: Xác định và giải thích kết quả
+
+Viết chính xác kết quả được in ra màn hình.
+Giải thích cách tính giá trị của biểu thức a - b.
+Phân biệt giữa việc tính toán giá trị của biến và việc hiển thị kết quả bằng print().
+Giải thích vì sao kết quả in ra đúng như vậy.
+
+Bước 5: Thực thi chương trình
+
+Hãy thực sự chạy đoạn code bằng môi trường Python nếu có công cụ thực thi phù hợp.
+
+Sau đó:
+
+Hiển thị đầu ra thực tế của chương trình.
+So sánh đầu ra thực tế với kết quả dự đoán.
+Kết luận hai kết quả có giống nhau hay không.
+
+Nếu không có công cụ thực thi, hãy nói rõ và không được khẳng định rằng đã chạy code thực tế.
+
+Bước 6: Kiểm tra mức độ hiểu bài
+
+Đưa ra 3 câu hỏi ngắn có độ khó tăng dần, dựa trên đoạn code trên, để kiểm tra xem người học đã hiểu:
+
+Cách gán giá trị cho biến.
+Cách thực hiện phép trừ.
+Cách thay đổi giá trị biến và dự đoán đầu ra.
+
+Hãy để người học tự trả lời trước, chưa đưa đáp án ngay.
+
+3. Yêu cầu về cách trình bày
+
+Sử dụng tiếng Việt rõ ràng, dễ hiểu.
+Trình bày theo từng mục và có thứ tự logic.
+Giải thích kỹ nhưng không lan man.
+Sử dụng ví dụ minh họa khi cần thiết.
+Không bỏ qua bất kỳ dòng code nào.
+Không tự ý thay đổi đoạn code ban đầu.
+Phân biệt rõ kết quả dự đoán và kết quả thực thi thực tế.
+Cuối cùng, tóm tắt kiến thức quan trọng cần ghi nhớ.
+Bây giờ hãy bắt đầu phân tích và giải thích theo đúng tất cả các yêu cầu trên.
