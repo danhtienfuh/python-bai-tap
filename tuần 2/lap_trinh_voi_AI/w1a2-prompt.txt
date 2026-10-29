@@ -1,0 +1,134 @@
+Bạn hãy đóng vai một giáo viên Tin học chuyên dạy lập trình Python cho người mới bắt đầu. Hãy giải thích kiến thức theo cách dễ hiểu, chính xác, có trình tự và giúp người học hiểu bản chất thay vì chỉ ghi nhớ kết quả.
+2. Đề bài
+Cho đoạn code Python sau:
+city = "Hà Nội"
+year = 2025
+print("Thành phố: ", city, " - Năm: ", year)
+Yêu cầu:
+- Giải thích đoạn code thực hiện công việc gì.
+- Xác định chính xác kết quả in ra màn hình.
+- Giải thích tại sao chương trình cho ra kết quả đó.
+- Giải thích ý nghĩa của từng dòng code.
+- Mô phỏng luồng thực thi của chương trình.
+- Phân tích kiểu dữ liệu của các biến và các giá trị được sử dụng.
+- Thực thi đoạn code để kiểm chứng kết quả dự đoán.
+3. Các bước phân tích chi tiết
+Bước 1: Tổng quan chương trình
+Hãy giải thích:
+- Đoạn code sử dụng ngôn ngữ lập trình nào?
+- Mục đích của chương trình là gì?
+- Chương trình có nhận dữ liệu từ bàn phím không?
+- Chương trình lưu trữ những thông tin nào?
+- Vì sao cần sử dụng biến city và year?
+Bước 2: Giải thích từng dòng code
+Phân tích lần lượt cả ba dòng code.
+
+Với mỗi dòng, hãy trình bày:
+1. Câu lệnh có chức năng gì?
+2. Python xử lý câu lệnh đó như thế nào?
+3. Giá trị nào được lưu trữ hoặc sử dụng?
+4. Kiểu dữ liệu của giá trị đó là gì?
+5. Câu lệnh ảnh hưởng thế nào đến trạng thái của chương trình?
+Đặc biệt, cần giải thích rõ:
+- city = "Hà Nội" là câu lệnh gán giá trị chuỗi cho biến.
+- year = 2025 là câu lệnh gán giá trị số nguyên cho biến.
+- print() có chức năng hiển thị dữ liệu ra màn hình.
+- Vai trò của dấu ngoặc kép trong việc xác định chuỗi ký tự.
+- Sự khác nhau giữa chuỗi "2025" và số nguyên 2025.
+Bước 3: Phân tích kiểu dữ liệu
+Hãy lập bảng phân tích kiểu dữ liệu với các cột:
+- Tên biến hoặc giá trị.
+- Giá trị cụ thể.
+- Kiểu dữ liệu Python.
+- Ý nghĩa.
+- Cách kiểm tra kiểu dữ liệu.
+Phải xác định chính xác:
+- city thuộc kiểu str.
+- year thuộc kiểu int.
+- "Thành phố: " và " - Năm: " là các giá trị chuỗi thuộc kiểu str.
+- Giải thích sự khác nhau giữa kiểu str và int.
+Hãy minh họa cách sử dụng hàm type() để kiểm tra kiểu dữ liệu, chẳng hạn:
+print(type(city))
+print(type(year))
+Giải thích kết quả của hai câu lệnh trên và cho biết chúng có làm thay đổi giá trị của các biến hay không.
+Bước 4: Mô phỏng luồng thực thi
+Hãy mô phỏng chương trình theo đúng thứ tự Python thực hiện.
+
+Lập bảng với các cột:
+- Bước thực hiện.
+- Câu lệnh.
+- Giá trị của city.
+- Giá trị của year.
+- Kết quả hoặc trạng thái sau bước đó.
+Giải thích rõ:
+1. Python thực hiện phép gán cho city.
+2. Python thực hiện phép gán cho year.
+3. Python gọi hàm print() để hiển thị các đối số theo thứ tự.
+4. Chương trình kết thúc sau khi thực hiện xong câu lệnh cuối cùng.
+Không được nhầm lẫn giữa việc lưu giá trị vào biến và việc in giá trị ra màn hình.
+Bước 5: Phân tích chi tiết hàm print()
+Hãy tập trung phân tích câu lệnh:
+print("Thành phố: ", city, " - Năm: ", year)
+Giải thích:
+- Hàm print() nhận những đối số nào?
+- Các đối số được xử lý theo thứ tự nào?
+- Dấu phẩy giữa các đối số có tác dụng gì?
+- Tham số sep của hàm print() có giá trị mặc định là gì?
+- Vì sao khi dùng nhiều đối số, Python tự chèn dấu cách giữa chúng?
+- Dấu cách có sẵn trong chuỗi và dấu cách do print() thêm vào khác nhau như thế nào?
+Hãy chỉ ra chính xác những vị trí có dấu cách trong kết quả, tránh nhầm lẫn giữa dấu cách nằm trong chuỗi và dấu cách do tham số sep tạo ra.
+Bước 6: Dự đoán kết quả đầu ra
+Trước khi thực thi code, hãy tự phân tích và đưa ra kết quả dự đoán.
+
+Sau đó:
+- Viết kết quả theo đúng định dạng đầu ra của Python.
+- Giải thích từng phần của dòng kết quả.
+- Không tự ý sửa code ban đầu.
+- Phân biệt kết quả đầu ra với phần giải thích của AI.
+Bước 7: Thực thi code để kiểm chứng
+Hãy thực sự chạy đoạn code Python ban đầu bằng công cụ thực thi nếu có.
+
+Sau khi chạy:
+1. Hiển thị đầu ra thực tế.
+2. So sánh đầu ra thực tế với kết quả dự đoán.
+3. Kết luận hai kết quả có giống nhau hay không.
+4. Nếu có khác biệt, hãy phân tích nguyên nhân.
+5. Nếu không có công cụ thực thi, phải nói rõ và không được khẳng định rằng đã chạy chương trình thực tế.
+Không được thay đổi code ban đầu khi thực hiện bước kiểm chứng.
+Bước 8: Thí nghiệm mở rộng
+Sau khi hoàn thành phần phân tích chính, hãy đưa ra các ví dụ ngắn để giúp người học hiểu sâu hơn:
+
+Ví dụ 1: Kiểm tra kiểu dữ liệu
+print(type(city))
+print(type(year))
+Ví dụ 2: Thay đổi cách phân tách các đối số
+print("Thành phố:", city, "- Năm:", year, sep="")
+Ví dụ 3: Sử dụng chuỗi định dạng f-string
+print(f"Thành phố: {city} - Năm: {year}")
+Với mỗi ví dụ:
+- Giải thích code.
+- Dự đoán kết quả.
+- Thực thi nếu có thể.
+- So sánh kết quả với đoạn code ban đầu.
+- Nêu rõ điểm khác nhau về cú pháp và cách hiển thị.
+Không được nhầm lẫn các ví dụ mở rộng với code gốc của đề bài.
+4. Tổng kết kiến thức
+Cuối bài, hãy tổng hợp những kiến thức quan trọng:
+- Biến trong Python.
+- Phép gán bằng dấu =.
+- Kiểu dữ liệu str và int.
+- Hàm type().
+- Hàm print().
+- Các đối số của hàm print() và tham số sep.
+- Luồng thực thi từ trên xuống dưới.
+- Cách dự đoán và kiểm chứng kết quả chương trình.
+5. Yêu cầu về cách trình bày
+- Sử dụng tiếng Việt.
+- Giải thích dễ hiểu cho người mới bắt đầu.
+- Trình bày theo từng mục, có bảng minh họa khi cần.
+- Giải thích đầy đủ nhưng không lan man.
+- Không bỏ qua bất kỳ dòng code nào.
+- Không tự ý thay đổi code gốc.
+- Phân biệt rõ kiến thức lý thuyết, kết quả dự đoán và kết quả thực thi.
+- Đảm bảo các kết quả đầu ra được viết chính xác, bao gồm cả dấu cách và dấu câu.
+Bây giờ hãy bắt đầu thực hiện đầy đủ các yêu cầu trên.

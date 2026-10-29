@@ -1,0 +1,127 @@
+PROMPT W1A3: ĐÁNH GIÁ CODE DO AI SINH RA, KIỂM CHỨNG KẾT QUẢ VÀ SỬA LỖI
+
+1. Vai trò
+
+Bạn hãy đóng vai một chuyên gia lập trình Python có khả năng kiểm tra, đánh giá và phát hiện lỗi trong mã nguồn do AI sinh ra.
+Nhiệm vụ của bạn không chỉ là giải thích code mà còn phải kiểm chứng tính đúng đắn của thuật toán, xác minh kết quả đầu ra và phát hiện những lỗi logic, lỗi cú pháp hoặc những nhận định sai của AI.
+Hãy làm việc theo nguyên tắc: Không mặc định code do AI tạo ra là đúng. Mọi kết luận quan trọng phải có lập luận hoặc kết quả kiểm chứng làm căn cứ.
+
+2. Đoạn code cần đánh giá
+
+Cho đoạn code Python sau:
+
+n = 4
+t = 0
+for i in range(1, n+1):
+    t += i
+print(t)
+
+Hãy xem đây là đoạn code do AI sinh ra và cần được đánh giá về tính chính xác.
+
+3. Các yêu cầu thực hiện
+
+Bước 1: Xác định mục đích của chương trình
+
+Giải thích chương trình được thiết kế để thực hiện công việc gì.
+Xác định dữ liệu đầu vào và kết quả đầu ra.
+Viết biểu thức toán học tương ứng với thuật toán.
+Xác định kết quả mà chương trình cần tạo ra nếu thuật toán hoạt động đúng.
+
+Bước 2: Đánh giá tính đúng đắn của code AI
+
+Kiểm tra từng dòng code để xác định:
+Có lỗi cú pháp hay không?
+Có lỗi logic hay không?
+Các biến đã được khởi tạo đúng chưa?
+Vòng lặp có chạy đủ số lần cần thiết không?
+Phạm vi giá trị của range() có chính xác không?
+Phép cộng dồn t += i có thực hiện đúng mục đích không?
+Lệnh print(t) có được đặt đúng vị trí không?
+Với mỗi vấn đề được phát hiện, hãy chỉ rõ dòng code liên quan, giải thích nguyên nhân và đưa ra bằng chứng cụ thể. Nếu không phát hiện lỗi, hãy nói rõ rằng code đã vượt qua các bước kiểm tra tương ứng, thay vì cố tạo ra lỗi không tồn tại.
+
+Bước 3: Phân tích luồng thực thi
+
+Mô phỏng chương trình theo thứ tự thực hiện thực tế của Python.
+Lập bảng gồm các cột:
+Lần lặp.
+Giá trị của i.
+Giá trị của t trước khi cập nhật.
+Phép tính được thực hiện.
+Giá trị của t sau khi cập nhật.
+Giải thích cách biến t thay đổi qua từng vòng lặp và cách chương trình kết thúc vòng lặp.
+
+Bước 4: Kiểm chứng kết quả độc lập
+
+Không chỉ dựa vào lời giải thích của AI, hãy kiểm tra kết quả bằng hai phương pháp:
+
+Phương pháp 1: Tính toán bằng toán học
+
+Tính tổng các số nguyên từ 1 đến 4 bằng cách viết phép tính cụ thể.
+
+Phương pháp 2: Thực thi bằng Python
+
+Chạy nguyên đoạn code đã cho bằng công cụ thực thi Python nếu có.
+
+Sau đó:
+Ghi lại đầu ra thực tế.
+So sánh kết quả thực thi với kết quả tính toán bằng toán học.
+Xác định hai kết quả có khớp nhau không.
+Nêu rõ căn cứ cho kết luận.
+Nếu không có công cụ thực thi, phải phân biệt kết quả suy luận với kết quả chạy thực tế, không được tuyên bố đã chạy code khi chưa chạy.
+
+Bước 5: Phân tích khả năng AI mắc lỗi hoặc ảo giác
+
+Đánh giá những nhận định sau đây nếu chúng xuất hiện trong câu trả lời của AI:
+AI cho rằng range(1, n+1) không bao gồm giá trị n.
+AI cho rằng t += i chỉ gán giá trị của i cho t, không cộng với giá trị cũ.
+AI cho rằng print(t) sẽ in ra kết quả sau mỗi vòng lặp.
+AI đưa ra kết quả đầu ra không khớp với phép tính thực tế.
+AI khẳng định đã chạy chương trình nhưng không có bằng chứng về việc thực thi.
+Với mỗi nhận định, hãy phân loại thành đúng, sai hoặc chưa đủ căn cứ; giải thích vì sao và cung cấp thông tin chính xác để thay thế.
+Lưu ý: Đây là các tình huống cần kiểm tra, không phải khẳng định rằng AI chắc chắn đã mắc tất cả những lỗi này.
+
+Bước 6: Đề xuất cách sửa code
+
+Nếu phát hiện lỗi, hãy:
+Chỉ rõ nguyên nhân.
+Đưa ra phiên bản code đã sửa.
+Giải thích từng thay đổi.
+Kiểm chứng lại kết quả sau khi sửa.
+Nếu code ban đầu đã đúng, hãy giữ nguyên code, nêu rõ không cần sửa lỗi và đề xuất cải tiến nếu có lợi cho tính dễ đọc hoặc khả năng tái sử dụng.
+
+Bước 7: Kiểm tra thêm bằng các trường hợp khác
+
+Hãy kiểm tra thuật toán với những giá trị n khác nhau:
+n = 1
+n = 5
+n = 0
+Với mỗi trường hợp:
+Dự đoán kết quả.
+Giải thích cách thuật toán xử lý.
+Thực thi nếu có công cụ phù hợp.
+So sánh kết quả thực tế với kết quả dự đoán.
+Đối với n = 0, hãy xác định rõ chương trình hiện tại cho kết quả gì và liệu kết quả đó có phù hợp với mục tiêu tính tổng các số nguyên từ 1 đến n hay không.
+
+Bước 8: Báo cáo đánh giá cuối cùng
+
+Trình bày báo cáo theo cấu trúc:
+Mục đích của chương trình.
+Kết quả kiểm tra cú pháp và logic.
+Bảng mô phỏng luồng thực thi.
+Kết quả tính toán độc lập.
+Kết quả thực thi và đối chiếu.
+Các lỗi hoặc nhận định sai của AI được phát hiện.
+Code đã sửa hoặc lý do giữ nguyên code.
+Kết luận về độ chính xác của chương trình.
+
+4. Nguyên tắc bắt buộc
+
+Sử dụng tiếng Việt, giải thích dễ hiểu cho người mới học Python.
+Không mặc định code do AI sinh ra là đúng hoặc sai.
+Không tự tạo ra lỗi để làm cho báo cáo có vẻ đầy đủ.
+Phân biệt lỗi cú pháp, lỗi logic, lỗi diễn giải và lỗi báo cáo kết quả thực thi.
+Không nhầm lẫn giữa kết quả dự đoán và kết quả chạy thực tế.
+Không sửa code nếu không có lý do cụ thể.
+Mọi kết luận về lỗi phải kèm theo giải thích hoặc bằng chứng.
+Trình bày rõ ràng, có bảng mô phỏng và code minh họa khi cần.
+Bây giờ hãy thực hiện đầy đủ quy trình đánh giá và đưa ra báo cáo cuối cùng.
