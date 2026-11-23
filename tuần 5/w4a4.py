@@ -1,5 +1,3 @@
-# W4A4 - CountingDigits
-# Khong su dung kieu du lieu string.
 n = abs(int(input()))
 
 if n == 0:

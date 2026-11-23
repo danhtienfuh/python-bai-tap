@@ -1,4 +1,3 @@
-
 def reverse_number(x):
     result = 0
     while x > 0:

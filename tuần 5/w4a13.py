@@ -1,4 +1,3 @@
-# W4A13 - ClosePairNumber
 def sum_proper_divisors(n):
     if n <= 1:
         return 0

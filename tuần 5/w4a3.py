@@ -1,4 +1,3 @@
-# W4A3 - Factorial
 n = int(input())
 result = 1
 

@@ -1,5 +1,3 @@
-# W4A6 - SumPrimesInRange
-# Moi dong input gom hai so a, b; xu ly den het du lieu (EOF).
 import sys
 
 def is_prime(x):

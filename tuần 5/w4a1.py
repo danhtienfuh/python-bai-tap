@@ -1,4 +1,3 @@
-# W4A1 - SumOfNumbers
 n = int(input())
 total = 0
 

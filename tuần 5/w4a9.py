@@ -1,7 +1,6 @@
-# W4A9 - PerfectSquaresDistinctDigits
+
 n = int(input())
 answer = []
-
 x = 0
 while x * x <= n:
     square = x * x

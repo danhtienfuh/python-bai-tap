@@ -1,5 +1,3 @@
-# W4A2 - PrimeNumber
-# Nhap lai cho den khi nhan duoc mot so nguyen duong.
 while True:
     try:
         n = int(input())
