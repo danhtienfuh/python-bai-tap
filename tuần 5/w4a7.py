@@ -1,4 +1,4 @@
-# W4A7 - LargestPrimeFactor
+
 n = int(input())
 largest = 1
 p = 2
@@ -10,6 +10,9 @@ while p * p <= n:
     p += 1
 
 if n > 1:
-    largest = n
+    largest = n  
 
+
+
+    
 print(largest)
