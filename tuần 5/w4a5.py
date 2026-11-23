@@ -1,4 +1,4 @@
-# W4A5 - MeaningOfLife
+
 n = int(input())
 found = False
 
